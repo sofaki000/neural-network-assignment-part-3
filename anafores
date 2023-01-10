@@ -1,0 +1,31 @@
+https://towardsdatascience.com/radial-basis-function-neural-network-simplified-6f26e3d5e04d
+https://github.com/JeremyLinux/PyTorch-Radial-Basis-Function-Layer
+
+https://www.kaggle.com/code/milan400/cifar10-autoencoder
+good comparison:
+https://github.com/rtflynn/Cifar-Autoencoder
+
+
+conv1D explained:
+https://sumanshuarora.medium.com/understanding-pytorch-conv1d-shapes-for-text-classification-c1e1857f8533
+
+conv2d explained:
+https://www.kaggle.com/code/fanbyprinciple/cifar10-with-simple-convolutions-in-pytorch#Measuring-accuracy
+https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148#:~:text=Stride%20is%20the%20number%20of,a%20time%20and%20so%20on.
+
+
+conv autoencoder explained:
+https://www.kaggle.com/code/ljlbarbosa/convolution-autoencoder-pytorch
+
+1.embedding dimension size can be the input to Conv1d layer
+aka feature_size is the input to Conv1D layer
+2. t, the filter only strides through 1 dimension
+ i.e horizontal so if we say that our kernel size is 2,
+ it means it will stride through pair of 2 words (bi-grams)
+ which are represented vertically
+ after the permutation step we performed above.
+
+
+ MAE:
+ 1. keras: https://github.com/ariG23498/mae-scalable-vision-learners/blob/master/mae-pretraining.ipynb
+ 2. pytorch https://github.com/IcarusWizard/MAE
